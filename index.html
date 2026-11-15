@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pioneers - Others section</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="AAAstyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitcount+Grid+Double:wght@100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitcount+Grid+Double:wght@100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Share+Tech+Mono&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitcount+Grid+Double:wght@100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Share+Tech+Mono&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <!-- <> # @ {} -->
+      <nav>
+        <div id="icodiv" class="ico">
+          <img src="ico2.png" alt="ico" class="ico">
+          <div id="h1">
+            <h1>Pioneers</h1>
+            <p>Interactive digital museum</p>
+          </div>
+        </div>
+        <div>
+          <ul id="enlaces">
+            <li id="navli">
+              <a id="home" href="https://s8shn7.csb.app/" class="nava">
+              <img src="Home.png" alt="home ico" class="slinks">
+              <span>Home</span></a>
+            </li>
+            <li id="navli">
+              <a href="https://sksws5.csb.app/" id="moon" class="nava">
+              <img src="Moon.png" alt="home ico" class="slinks">
+              <span>Moon</span></a>
+            </li>
+            <li id="navli">
+              <a href="https://5rnh7p.csb.app/" id="mars" class="nava">
+              <img src="Mars.png" alt="home ico" class="slinks">
+              <span>Mars</span></a>
+            </li>
+            <li id="navli">
+              <a href="https://32y28c.csb.app/" id="deep-space" class="nava">
+              <img src="Deep Space.png" alt="home ico" class="slinks">
+              <span>Deep Space</span></a>
+            </li>
+            <li id="navli">
+              <a href="https://ydy9qm.csb.app/" id="others" class="nava">
+              <img  src="Others.png" alt="home ico" class="slinks">
+              <span id="active">Others</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+      <main>
+        <section id="moon_intro">
+          <figure id="imgandsource">
+            <img src="37887_Eros-near-earth-asteroid-humans-to-mars.jpg" alt="deep space" id="introimg">
+            <figcaption class="source">Source: <a target="_blank" href="https://science.nasa.gov/resource/close-up-view-of-eros/" class="subr">Close-up View of Eros</a></figcaption>
+          </figure>
+            <div id="moonexploration">
+              <h2>Other Stories</h2>
+              <p>Spacecraft have not only been left behind on Mars, the Moon, or in deep space. Throughout history, humanity has also sent space probes that have reached asteroids, comets, dwarf planets, and moons orbiting other planets. Some of these spacecraft completed their missions on the surfaces of these celestial bodies, others remained in orbit around them, while some continued their journeys, moving farther and farther away from the Sun.</p>
+              <p>Each of these missions helped expand our knowledge of the solar system by exploring lesser-known but equally fascinating and important destinations. We invite you to discover their stories and learn about their contributions to science.</p>
+              <p>We invite you to learn more about these abandoned, but never forgotten, spacecraft.</p>
+
+            </div>
+        </section>
+        </section>
+        <section id="shoemakersection">
+          <div id="shoemakertext">
+            <h2>Near Shoemaker, The Probe That Wasn’t Built to Land:</h2>
+            <p>Meet the first spacecraft to land on an asteroid. It was never designed to do it, and it has been silent ever since. Follow its journey and discover why it hasn’t been forgotten.</p>
+            <div>
+              <h3>3D model of the probe:</h3>
+              <model-viewer 
+                id="shoemaker3d"
+                src="NEAR Shoemaker.glb"
+                alt="3D model of the NEAR Shoemaker spacecraft"
+                auto-rotate
+                style="width:100%; height: clamp(280px, 45vh, 520px);"
+                camera-controls></model-viewer>
+                <p>Source:<a class="subr" href="https://science.nasa.gov/3d-resources/near-shoemaker/" target="_blank" rel="noopener">NASA Science – NEAR Shoemaker 3D model</a></p>
+            </div>
+          </div>
+          <div id="shoemakerdiv">
+            <iframe src="https://dolle876.github.io/Near-Shoemaker3/" title="Mars missions map" allowfullscreen
+  style="border:none; display:block; width:90%; margin:0 auto; height:auto; aspect-ratio:4/3;"></iframe>
+        </div>
+      </section>
+        <section id="end">
+          <h2>Work in Progress</h2>
+          <p>Due to time constraints, we were not able to create all the animations we wanted. Some of the stories still pending are those of the Apollo 10 Lunar Module “Snoopy”, which drifts around the Sun after its trip to the Moon; Dawn, which remains silently orbiting the dwarf planet Ceres; ISEE-3/ICE, the spacecraft that flew through a comet’s tail and was later contacted by a citizen-led effort; Ulysses, which explored Jupiter and the Sun’s poles and remains in orbit around the Sun; and Huygens, the probe that landed on Saturn’s moon Titan, where it remains today.</p> 
+          <p>If we extend the idea of “abandoned” to include spacecraft whose missions ended in a deliberate destruction, many more stories could be told, such as those of Cassini, Galileo, Juno, MESSENGER, and Magellan. We leave it to NASA to decide whether those stories belong in this museum.</p>
+          <p>Finally, the Others section has the potential to hold a great many more stories. Spacecraft that orbit the Sun, visit asteroids and comets, or explore Mercury and Venus could each become a new wing of the museum. Here we only mention a few of them.</p>  
+        </section>
+      </main>
+
+      <footer>
+
+      </footer>
+  </body>
+</html>

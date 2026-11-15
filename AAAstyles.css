@@ -1,0 +1,250 @@
+/*<> # @ {}*/
+/*Los nombres de los colores indican para que son usados*/
+/*fuentes: orbitron (titulos), share tech mono (botones, texto corto), exo 2 (cuerpo principal, texto largo)*/
+:root {
+  --fondo: #0b1026;
+  --contenedor: rgb(24, 32, 74);
+  --borde: #2b3a73;
+  --links: #9addbd;
+  --texto: #f2f4ff;
+}
+body {
+  background-color: var(--fondo);
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+section {
+  background-color: rgba(25, 75, 75, 0.75);
+  border: rgb(70, 160, 160) 8px double;
+  margin: 4%;
+  padding: 5%;
+  border-radius: clamp(10px, 2vw, 25px);
+}
+p {
+  color: var(--texto);
+  font-family: "Exo 2";
+}
+h1 {
+  color: #f2f4ff;
+  font-family: orbitron;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+nav a{
+  color: #f2f4ff;
+}
+h2 {
+  font-family: share tech mono;
+  color: var(--links);
+  transition: 0.5s;
+}
+h2:hover {
+  color: hsl(227, 74%, 88%);
+  transition: 0.5s;
+}
+a {
+  text-align: center;
+  font-family: share tech mono;
+  padding: 1%;
+  color: var(--links);
+  transition: 0.5s;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--texto);
+  transition: 0.5s;
+  text-decoration: none;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+/*----------------------------------------------NAV-------------------------------------------------------------------*/
+nav {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: #51566c;
+}
+#icodiv {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 5%;
+  align-items: center;
+}
+ico,
+img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+#enlaces {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 1%;
+}
+#navli {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 150%;
+  white-space: nowrap;
+}
+
+#active {
+  color: var(--texto);
+  text-decoration: underline;
+}
+
+.slinks {
+  width: 40px;
+  justify-content: center;
+}
+
+.nava {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#home:hover {
+  filter: drop-shadow(0 0 8px #64b5f6);
+  transform: scale(1.05);
+}
+
+#moon:hover {
+  filter: drop-shadow(0 0 8px #e0e0e0);
+  transform: scale(1.05);
+}
+
+#mars:hover {
+  filter: drop-shadow(0 0 8px #ff5252);
+  transform: scale(1.05);
+}
+
+#deep-space:hover {
+  filter: drop-shadow(0 0 8px #b388ff);
+  transform: scale(1.05);
+}
+
+#others:hover {
+  filter: drop-shadow(0 0 8px #64ffda);
+  transform: scale(1.05);
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+#shoemakerdiv {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: ceter;
+}
+#shoemakersection {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+#shoemakertext {
+  margin: 5%;
+  align-items: center;
+}
+h3 {
+  font-family: share tech mono;
+  color: var(--links);
+  transition: 0.5s;
+}
+#shoemaker3d {
+  background: radial-gradient(circle at center, #f2f2f4 0%, #86878e 100%);
+}
+.subr {
+  text-decoration: underline;
+}
+body {
+  background-color: var(--fondo);
+  background-image: url("estrellas.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#h1 h1 {
+  margin: 0;
+  line-height: 1;
+}
+
+#h1 p {
+  margin: 2px 0 0 0;
+  line-height: 1.2;
+}
+.ico img {
+  width: 120%;
+}
+#end{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: rgb(70, 160, 160) 8px double;
+  border: double 0px rgba(180, 60, 30);
+  border-radius: 0px;
+
+}
+#moon_intro{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 5%;
+  justify-content: center;   
+  align-items: start;
+  margin: 2%;
+  padding: 2%;
+}
+.source{
+  font-size: 12px;
+  margin-top: 6px;
+  text-align: left;  
+}
+
+.subr{
+  text-decoration: underline;
+
+}
+
+#moonexploration{
+  margin: 0;                
+}
+
+#moonexploration h2{
+  margin-top: 0;        }
+figcaption{
+  color: var(--texto);
+}
+#imgandsource{
+  display: block;
+  position: static;
+  width: 100%;            
+  justify-self: center;
+  height: auto;        
+  margin: 0;
+  padding: 0;
+  align-self: start;
+  justify-self: start;
+}
+
+#introimg{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.subr{
+  text-decoration: underline;
+}
